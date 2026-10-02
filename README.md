@@ -25,6 +25,16 @@ Compile → 5 contracts, 378 lines, 11 OpenZeppelin imports. Zero hand-written S
 
 ---
 
+<!-- product-screenshots:start -->
+## Product screenshots
+
+Governance policy editor with the YAML input and parsed policy preview.
+
+![policyforge product interface](public/screenshot-editor.png)
+
+Existing UI capture stored in this repository; displayed values may be demo or sample data.
+<!-- product-screenshots:end -->
+
 ## The Problem
 
 Setting up on-chain governance is painful. OpenZeppelin provides the building blocks — Governor, TimelockController, AccessControl, ERC20Votes — but composing them into a working governance system requires:
